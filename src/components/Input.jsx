@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function Input(props) {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(false);
 
   const handleClick = (event) => {
     setActive(!isActive);
