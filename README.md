@@ -1,2 +1,2 @@
 # See portfolio with the link below
-[!My Portfolio](https://ulipese-portfolio.netlify.app/)
+[My Portfolio](https://ulipese-portfolio.netlify.app/)
