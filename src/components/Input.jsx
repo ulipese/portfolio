@@ -4,6 +4,7 @@ function Input(props) {
   const [isActive, setActive] = useState(false);
 
   const handleClick = (event) => {
+    navigator.clipboard.writeText("felipe.sousa4030@gmail.com"); // copy to clipboard
     setActive(!isActive);
   };
 
