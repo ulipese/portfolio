@@ -299,6 +299,8 @@ body {
   }
   .home__see-projects {
     width: 100%;
+    bottom: 4em;
+    margin-bottom: -2em;
   }
   .see-projects__icon {
     display: flex;
