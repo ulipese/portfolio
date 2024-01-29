@@ -1,13 +1,13 @@
-import "./App.css";
-import Project from "./components/Project";
-import Input from "./components/Input";
-import ScrollReveal from "scroll-reveal/scrollreveal.min";
-import { useEffect } from "react";
+import './App.css';
+import { useEffect } from 'react';
+import Project from './components/Project';
+import Input from './components/Input';
+import ScrollReveal from './scrollreveal.min';
 
 function App() {
   const rs = ScrollReveal({
-    origin: "top",
-    distance: "60px",
+    origin: 'top',
+    distance: '60px',
     duration: 2000,
     delay: 400,
     // reset: true,
@@ -16,22 +16,23 @@ function App() {
   const userPreferredLang = navigator.language;
 
   useEffect(() => {
-    rs.reveal(".home");
-    rs.reveal(".title-content__social", { interval: 150 });
-    rs.reveal(".projects");
-    rs.reveal(".project", { interval: 150 });
-    rs.reveal(".about");
-    rs.reveal(".info__image", { interval: 150 });
-    rs.reveal(".contact");
-    rs.reveal(".input", { interval: 150 });
+    rs.reveal('.home');
+    rs.reveal('.title-content__social', { interval: 150 });
+    rs.reveal('.projects');
+    rs.reveal('.project', { interval: 150 });
+    rs.reveal('.about');
+    rs.reveal('.info__image', { interval: 150 });
+    rs.reveal('.contact');
+    rs.reveal('.input', { interval: 150 });
   }, [rs]); // add animations
 
-  return userPreferredLang === "pt-BR" ? ( // if portuguese speaker
+  return userPreferredLang === 'pt-BR' ? ( // if portuguese speaker
     <main className="main">
       <section className="home">
         <section className="home__title-content">
           <h1 className="title-content__title">
-            Olá, sou o <span className="highlight">Felipe </span> <br />
+            Olá, sou o <span className="highlight">Felipe </span>
+            <br />
             <span className="highlight-title-role">FullStack Developer</span>
           </h1>
           <div className="title-content__social">
@@ -76,7 +77,8 @@ function App() {
               alt="Scroll down"
               className="see-projects__icon"
             />
-            Veja alguns<span className="highlight"> projetos!</span>
+            Veja alguns
+            <span className="highlight"> projetos!</span>
           </a>
         </section>
       </section>
@@ -141,28 +143,28 @@ function App() {
       </section>
       <section className="about">
         <h1 className="about__title">
-          Agora, mais sobre o{" "}
+          Agora, mais sobre o{' '}
           <span className="highlight">autor dos projetos</span>!
         </h1>
         <div className="about__info">
           <p className="info__description">
-            Meu nome é{" "}
+            Meu nome é{' '}
             <span className="highlight">Felipe Sousa de Oliveira</span>,
-            atualmente moro em São Paulo, tenho{" "}
+            atualmente moro em São Paulo, tenho{' '}
             <span className="highlight">
               formação técnica em Desenvolvimento de Sistemas
             </span>
             , e 3 anos de experiência em desenvolvimento web FullStack com
             diversos projetos. Minhas linguagens e ferramentas que atuo com
-            maior maestria são: <span className="highlight">React</span>,{" "}
-            <span className="highlight">Node</span>,{" "}
-            <span className="highlight">MongoDB</span>,{" "}
-            <span className="highlight">MySQL</span>,{" "}
-            <span className="highlight">HTML</span>,{" "}
-            <span className="highlight">CSS</span>,{" "}
-            <span className="highlight">Sass</span>, um pouco de{" "}
-            <span className="highlight">PHP</span> e{" "}
-            <span className="highlight">Java</span>, e{" "}
+            maior maestria são: <span className="highlight">React</span>,{' '}
+            <span className="highlight">Node</span>,{' '}
+            <span className="highlight">MongoDB</span>,{' '}
+            <span className="highlight">MySQL</span>,{' '}
+            <span className="highlight">HTML</span>,{' '}
+            <span className="highlight">CSS</span>,{' '}
+            <span className="highlight">Sass</span>, um pouco de{' '}
+            <span className="highlight">PHP</span> e{' '}
+            <span className="highlight">Java</span>, e{' '}
             <span className="highlight">C#</span>. Também estou expandindo meu
             repertório aprendendo
             <span className="highlight"> TypeScript</span>.
@@ -233,7 +235,8 @@ function App() {
               alt="Scroll down"
               className="see-projects__icon"
             />
-            See some<span className="highlight"> projects!</span>
+            See some
+            <span className="highlight"> projects!</span>
           </a>
         </section>
       </section>
@@ -299,29 +302,29 @@ function App() {
       </section>
       <section className="about">
         <h1 className="about__title">
-          Now, more about the{" "}
+          Now, more about the{' '}
           <span className="highlight">author of these projects</span>!
         </h1>
         <div className="about__info">
           <p className="info__description">
-            My name is{" "}
+            My name is{' '}
             <span className="highlight">Felipe Sousa de Oliveira</span>, I live
-            in São Paulo, I have{" "}
+            in São Paulo, I have{' '}
             <span className="highlight">
               technical degree in Systems Development
             </span>
             , and 3 years of FullStack development with divers projects. My
-            programming languages and skills are:{" "}
-            <span className="highlight">React</span>,{" "}
-            <span className="highlight">Node</span>,{" "}
-            <span className="highlight">MongoDB</span>,{" "}
-            <span className="highlight">MySQL</span>,{" "}
-            <span className="highlight">HTML</span>,{" "}
-            <span className="highlight">CSS</span>,{" "}
-            <span className="highlight">Sass</span>, a little of{" "}
-            <span className="highlight">PHP</span> and{" "}
-            <span className="highlight">Java</span>, and{" "}
-            <span className="highlight">C#</span>. I'm also expanding my
+            programming languages and skills are:{' '}
+            <span className="highlight">React</span>,{' '}
+            <span className="highlight">Node</span>,{' '}
+            <span className="highlight">MongoDB</span>,{' '}
+            <span className="highlight">MySQL</span>,{' '}
+            <span className="highlight">HTML</span>,{' '}
+            <span className="highlight">CSS</span>,{' '}
+            <span className="highlight">Sass</span>, a little of{' '}
+            <span className="highlight">PHP</span> and{' '}
+            <span className="highlight">Java</span>, and{' '}
+            <span className="highlight">C#</span>. I am also expanding my
             repertory learning
             <span className="highlight"> TypeScript</span>.
           </p>
