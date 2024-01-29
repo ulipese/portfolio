@@ -1,8 +1,29 @@
 import "./App.css";
 import Project from "./components/Project";
 import Input from "./components/Input";
+import ScrollReveal from "scroll-reveal/scrollreveal.min";
+import { useEffect } from "react";
 
 function App() {
+  const rs = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2000,
+    delay: 400,
+    // reset: true,
+  });
+
+  useEffect(() => {
+    rs.reveal(".home");
+    rs.reveal(".title-content__social", { interval: 150 });
+    rs.reveal(".projects");
+    rs.reveal(".project", { interval: 150 });
+    rs.reveal(".about");
+    rs.reveal(".info__image", { interval: 150 });
+    rs.reveal(".contact");
+    rs.reveal(".input", { interval: 150 });
+  }, [rs]); // add animations
+
   return (
     <main className="main">
       <section className="home">
@@ -17,26 +38,31 @@ function App() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src="/images/linkedin-icon.svg" alt="LinkedIn" />
+              <img
+                src="/images/linkedin-icon.svg"
+                loading="lazy"
+                alt="LinkedIn"
+              />
             </a>
             <a
               href="https://github.com/ulipese"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src="/images/github-icon.svg" alt="GitHub" />
+              <img src="/images/github-icon.svg" loading="lazy" alt="GitHub" />
             </a>
             <a
               href="https://drive.google.com/file/d/1Ep3MTOhcErx_2LCnsfW_dVitSFzV84gb/view?usp=sharing"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src="/images/cv-icon.svg" alt="CV" />
+              <img src="/images/cv-icon.svg" loading="lazy" alt="CV" />
             </a>
           </div>
         </section>
         <img
           src="/images/square-langs-image.png"
+          loading="lazy"
           alt="Programming Languages"
           className="home__square"
         />
@@ -44,6 +70,7 @@ function App() {
           <a href="#projects" className="see-projects__title">
             <img
               src="/images/scroll-down-icon.svg"
+              loading="lazy"
               alt="Scroll down"
               className="see-projects__icon"
             />
@@ -130,6 +157,7 @@ function App() {
           </p>
           <img
             src="/images/me-image.png"
+            loading="lazy"
             alt="Author (Felipe Sousa)"
             className="info__image"
           />

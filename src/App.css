@@ -300,7 +300,6 @@ body {
   .home__see-projects {
     width: 100%;
     bottom: 4em;
-    margin-bottom: -2em;
   }
   .see-projects__icon {
     display: flex;
@@ -323,6 +322,9 @@ body {
     align-items: center;
     gap: 0em;
     margin-top: 5em;
+  }
+  .about__title {
+    margin-bottom: 2em;
   }
   .contact__input {
     font-size: .8em;

@@ -4,7 +4,7 @@ function Project(props) {
       <h1 className="project__title">{props.title}</h1>
       <img
         src={`/images/projects-images/${props.src}`}
-        alt="Project"
+         loading="lazy" alt="Project"
         className="project__image"
       />
       <div className="project__about">
@@ -16,7 +16,7 @@ function Project(props) {
           >
             <img
               src="/images/github-project-icon.svg"
-              alt="Project github"
+               loading="lazy" alt="Project github"
               className="more__icon"
               id="github"
             />
@@ -24,7 +24,7 @@ function Project(props) {
           <a href={`${props.project}`} target="_blank" rel="noreferrer noopener">
             <img
               src="/images/open-icon.svg"
-              alt="See Project"
+               loading="lazy" alt="See Project"
               className="more__icon"
             />
           </a>
