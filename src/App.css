@@ -173,6 +173,9 @@ body {
 .more__icon {
   width: 2em;
 }
+.no-project {
+  margin-top: -.3em;
+}
 #github.more__icon {
   width: 2.5em;
 }
@@ -272,6 +275,7 @@ body {
   color: var(--background);
   text-decoration: none;
 }
+
 
 /* MEDIA QUERIES TO MOBILE RESPONSIVE */
 @media screen and (max-width: 625px) {

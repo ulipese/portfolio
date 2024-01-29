@@ -102,28 +102,38 @@ function App() {
             Projeto web para academia, feito com HTML, CSS e Javascript!
           </Project>
           <Project
-            title="DebugApp Keeper"
-            src="debugapp-keeper.png"
-            github="debugapp-keeper"
-            project="https://keeper-debugapp.netlify.app/"
+            title="Teste FaciJuridico"
+            src="facilita-juridico.png"
+            github="teste_facilitajuridico"
+            project=""
           >
-            Projeto web para anotações, feito com React, Node e MongoDB!
+            Teste que fiz para uma empresa, feito com React, Node e PostgreSQL!
           </Project>
           <Project
-            title="HaltUp"
-            src="haltup.png"
-            github="haltup"
-            project="https://ulipese.github.io/HaltUp"
+            title="Moos Clocks"
+            src="moos-clocks.png"
+            github="moos_clocks"
+            project=""
           >
-            Projeto web para academia, feito com HTML, CSS e Javascript!
+            Ecommerce de relógios, feito com Bootstrap, Jquery, PHP e MySQL!
           </Project>
           <Project
-            title="DebugApp Keeper"
-            src="debugapp-keeper.png"
-            github="debugapp-keeper"
-            project="https://keeper-debugapp.netlify.app/"
+            title="Tip Calculator"
+            src="tip-calculator.png"
+            github="tip-calculator-app"
+            project="https://ulipese.github.io/tip-calculator-app/"
           >
-            Projeto web para anotações, feito com React, Node e MongoDB!
+            Projeto web para treinar minhas frontend skills com figma, HTML, CSS
+            e JS (para os cálculos)!
+          </Project>
+          <Project
+            title="Advice Generator"
+            src="advice-generator.png"
+            github="advice-generator-app"
+            project="https://ulipese.github.io/advice-generator-app/"
+          >
+            Projeto web para treinar minhas frontend skills com figma, HTML, CSS
+            e JS (para consumir a api)!
           </Project>
         </section>
       </section>
