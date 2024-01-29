@@ -300,7 +300,7 @@ function App() {
       <section className="about">
         <h1 className="about__title">
           Now, more about the{" "}
-          <span className="highlight">author of projects</span>!
+          <span className="highlight">author of these projects</span>!
         </h1>
         <div className="about__info">
           <p className="info__description">
