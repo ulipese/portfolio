@@ -12,7 +12,7 @@
     "no-unused-expressions": "warn",
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
-    "allowShortCircuit": true,
+    "allowShortCircuit": 1,
     "allowTaggedTemplates": true
   },
   "overrides": [
@@ -20,7 +20,7 @@
       "files": ["*.test.js", "*.spec.js"],
       "rules": {
         "no-unused-expressions": "off",
-        "allowShortCircuit": true,
+        "allowShortCircuit": 1,
         "allowTaggedTemplates": true
       }
     }
