@@ -15,14 +15,16 @@
         "no-unused-expressions": "warn",
         "react/react-in-jsx-scope": "off",
         "react/jsx-one-expression-per-line": "off",
-        "allowShortCircuit": 0
+        "allowShortCircuit": 0,
+        "react/prop-types": 0
       },
       "overrides": [
         {
           "files": ["*.test.js", "*.spec.js"],
           "rules": {
             "no-unused-expressions": "off",
-            "allowShortCircuit": 0
+            "allowShortCircuit": 0,
+            "react/prop-types": 0
           }
         }
       ]
