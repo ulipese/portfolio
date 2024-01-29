@@ -35,7 +35,11 @@ function Input(props) {
         alt="icon"
         className="input__icon-active"
       />
-      <p className="input__email email-active">O email foi copiado!</p>
+      <p className="input__email email-active">
+        {navigator.language === "pt-BR"
+          ? "O email foi copiado!"
+          : "The email was copied!"}
+      </p>
     </div>
   );
 }

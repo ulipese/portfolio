@@ -2,11 +2,9 @@ function Project(props) {
   let { title, children } = props;
 
   if (title.length > 23) {
-    console.log(title.length);
     title = title.substring(0, 20) + "...";
   }
   if (children.length > 80) {
-    console.log(children.length);
     children = children.substring(0, 77) + "...";
   }
 
