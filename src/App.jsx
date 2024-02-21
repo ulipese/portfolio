@@ -55,7 +55,7 @@ function App() {
               <img src="/images/github-icon.svg" loading="lazy" alt="GitHub" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1Ep3MTOhcErx_2LCnsfW_dVitSFzV84gb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1hM1872gNGwXk4OAsw3ar8_WlLw9aZAnP/view?usp=sharing"
               rel="noopener noreferrer"
               target="_blank"
             >
