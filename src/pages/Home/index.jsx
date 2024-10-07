@@ -11,7 +11,7 @@ export const Home = () => {
             <span className="text-primGreen">FullStack Developer</span>
           </h1>
           <div className="flex flex-wrap flex-row">
-            <Link
+            <a
               href="https://linkedin.com/in/ulipese"
               rel="noopener noreferrer"
               target="_blank"
@@ -22,8 +22,8 @@ export const Home = () => {
                 alt="LinkedIn"
                 className="w-[3em]"
               />
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://github.com/ulipese"
               rel="noopener noreferrer"
               target="_blank"
@@ -34,9 +34,9 @@ export const Home = () => {
                 alt="GitHub"
                 className="w-[3em]"
               />
-            </Link>
-            <Link
-              href="https://drive.google.com/file/d/1hM1872gNGwXk4OAsw3ar8_WlLw9aZAnP/view?usp=sharing"
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/1B0f18PEQytVdfWv3cTyXJYEhDrtCXqFq?usp=sharing"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -46,7 +46,7 @@ export const Home = () => {
                 alt="CV"
                 className="w-[3em]"
               />
-            </Link>
+            </a>
           </div>
         </section>
         <img
