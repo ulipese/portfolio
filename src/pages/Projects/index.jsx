@@ -8,7 +8,7 @@ export const Projects = () => {
           Aqui estão os meus
           <span className="text-primGreen"> melhores projetos</span>
         </h1>
-        <section className="flex flex-row flex-wrap w-full h-full gap-[2em] justify-between py-[1em]">
+        <section className="flex flex-row flex-wrap w-full h-full gap-[2em] justify-around py-[1em]">
           <Project
             title="DebugApp Keeper"
             src="debugapp-keeper.png"
