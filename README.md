@@ -2,7 +2,7 @@
 
 [My Portfolio](https://ulipese-portfolio.netlify.app/)
 
-## Tech useds
+## Techs used
 
 - React
 - Tailwind
